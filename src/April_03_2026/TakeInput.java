@@ -1,3 +1,5 @@
+package April_03_2026;
+
 import java.util.Scanner;
 
 public class TakeInput {
