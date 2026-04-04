@@ -1,4 +1,4 @@
-package April_03_2026;
+package April_04_2026;
 
 /**
  * Write a program that prints numbers from 1 to 100. However, for multiples of 3, print "Fizz"
