@@ -20,7 +20,7 @@ public class LeapYearChecker
                     System.out.println("This year is leap year");
                 else
                     System.out.println("The number is not leap year");
-            }
+            } else System.out.println("This is a leap year");
         } else System.out.println("The number is not leap year");
     }
 }
