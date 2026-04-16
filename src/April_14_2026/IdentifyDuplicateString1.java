@@ -29,9 +29,9 @@ public class IdentifyDuplicateString1
             if (duplicateFound)
                 duplicates[index++] = strings[i];
         }
-        for (int i = 0; i<index; i++)
-        {
-            System.out.print(duplicates[i] + " ");
+        String[] duplicates1 = Arrays.copyOf(duplicates, index);
+        for (String duplicate : duplicates1) {
+            System.out.print(duplicate + " ");
         }
     }
 }
