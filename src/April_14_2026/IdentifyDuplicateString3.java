@@ -27,7 +27,6 @@ public class IdentifyDuplicateString3
             if(map.get(s) > 1)
                 System.out.print(s + " ");
         }
-
         for (Map.Entry<String,Integer> entry : map.entrySet())
         {
             if (entry.getValue()> 1)
