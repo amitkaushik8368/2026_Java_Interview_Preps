@@ -4,18 +4,16 @@ import java.util.Arrays;
 import java.util.Collection;
 import java.util.Collections;
 import java.util.List;
+import java.util.stream.Stream;
 
 
 public class ReverseArray1
 {
     public static void main(String[] args)
     {
-        List<Integer> list = Arrays.asList(1,2,3,4,5);
-        Collections.reverse(list);
-        System.out.println(list);
-
-        int[] integerArray = {22, 3, 29, 56, 35, 54};
-        //List<int[]> list = List.of(integerArray);
+        int[] arr = {29, 3, 23, 54, 57, 8};
+        Integer[] arrObject = Arrays.stream(arr).boxed().toArray(Integer[]::new);
+        System.out.println(arrObject);
 
 
     }
