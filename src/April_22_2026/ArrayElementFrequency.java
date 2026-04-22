@@ -23,7 +23,8 @@ public class ArrayElementFrequency
                     alreadyChecked[j] = true;
                 }
             }
-            System.out.println("(" + array[i] + ", " + count + ")");
+            //System.out.println("(" + array[i] + ", " + count + ")");
+            System.out.printf("(%d, %d)\n", array[i], count);
         }
 
     }
