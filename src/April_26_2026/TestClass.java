@@ -5,11 +5,12 @@ public class TestClass
     public static void main(String[] args)
     {
         AnotherClass anotherClass = new AnotherClass();
-        Thread t1 = new Thread(anotherClass);
-        t1.start();
+        anotherClass.start();
+        //Thread t1 = new Thread(anotherClass);
+        //t1.start();
     }
 }
-class AnotherClass implements Runnable
+class AnotherClass extends Thread
 {
     public void run()
     {

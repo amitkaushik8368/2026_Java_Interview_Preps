@@ -8,7 +8,6 @@ public class UnderstandMultiThreading
 
         MyThread myThread = new MyThread();
         myThread.start();
-
     }
 }
 class MyThread extends Thread
