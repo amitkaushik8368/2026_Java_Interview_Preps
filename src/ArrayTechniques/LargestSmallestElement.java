@@ -39,7 +39,7 @@ public class LargestSmallestElement
     {
         int smallestElement = Integer.MAX_VALUE;
         for (int element: arr)
-            smallestElement = Math.min(smallestElement, element);
+            smallestElement = Math.min(element, smallestElement);
         return smallestElement;
     }
 }
