@@ -4,4 +4,8 @@ import May_2026.Week1.BaseTest;
 
 public class TestClass extends BaseTest
 {
+    void getName()
+    {
+        printName();
+    }
 }

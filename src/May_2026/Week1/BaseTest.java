@@ -10,4 +10,9 @@ public class BaseTest
     {
 
     }
+
+    public void printName()
+    {
+        System.out.println("Amit Sharma");
+    }
 }
